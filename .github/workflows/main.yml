@@ -29,7 +29,7 @@ jobs:
       - name: Scan with Endor Labs
         uses: endorlabs/github-action@main
         with:
-          namespace: endorlabs-hearts-github
+          namespace: github-endor-las
           sarif_file: endor-labs.sarif
       
       - name: Upload SARIF to github
