@@ -34,7 +34,6 @@ jobs:
           api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
           enable_github_action_token: false
           scan_summary_output_type: table
-          ci_run: true
           log_verbose: true
           log_level: debug
           sarif_file: endor-labs.sarif
