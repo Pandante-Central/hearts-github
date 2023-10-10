@@ -31,7 +31,7 @@ jobs:
         with:
           namespace: github-endor-las
           api_key: ${{ secrets.ENDOR_API_CREDENTIALS_KEY }}
-          api_secret: ${{ ENDOR_API_CREDENTIALS_SECRET }}
+          api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
           sarif_file: endor-labs.sarif
       
       - name: Upload SARIF to github
